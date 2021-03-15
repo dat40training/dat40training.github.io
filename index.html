@@ -9,6 +9,7 @@
 		<title>SEA4DQ Workshop 2021</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -18,18 +19,28 @@
 			<div id="wrapper">
 				<!-- Header -->
 					<header id="header" class="alt">
-						<h1><b>SEA4DQ Workshop 2021</b></h1>
-						<p>The 1st International Workshop on Software Engineering and AI for 
-							Data Quality in Cyber-Physical Systems at the </br><a href="https://2021.esec-fse.org/">ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC / FSE)</a>
-						</p>
-						<h3>Athens, Greece</h3>
+						<div class="container">
+							<div class="row">
+								<div class="col-4">
+									<img src="images/logo_transparent.png" style="max-width: 100%;" alt="" />
+								</div>
+								<div class="col-8">
+									<h1><b>SEA4DQ Workshop 2021</b></h1>
+									<p>The 1st International Workshop on Software Engineering and AI for 
+										Data Quality in Cyber-Physical Systems at the </br><a href="https://2021.esec-fse.org/">ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC / FSE)</a>
+									</p>
+									<h3>August 2021 (tbd) - Athens, Greece</h3>
+								</div>
+							</div>
+						</div>
 					</header>
-					<!-- <img src="images/acropolis.jpg" style="max-width: 100%; filter: brightness(80%); z-index:-2;" alt="" /> -->
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">About</a></li>
+							<li><a href="#program">Program</a></li>
+							<li><a href="#keynote">Keynote</a></li>
 							<li><a href="#first">Call for Papers</a></li>
 							<li><a href="#dates">Dates</a></li>
 							<li><a href="#second">Commitee</a></li>
@@ -40,7 +51,7 @@
 					<div id="main">
 
 						<!-- About -->
-							<section id="intro" class="main">
+							<section id="intro" class="main special">
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
@@ -63,9 +74,75 @@
 
 										</p>
 									</div>
-									<span class="image"><img src="images/acropolis.jpg" alt="" /></span>
+									<!--<span class="image"><img src="images/acropolis.jpg" alt="" /></span>-->
 								</div>
 							</section>
+
+						<!-- Program -->
+						<section id="program" class="main special">
+							<header class="major">
+								<h2>Program</h2>
+							</header>
+							<div class="alert alert-secondary" role="alert">
+								Exact workshop date and keynote speaker are to be announced!
+							  </div>
+							<table class="table">
+								<tbody>
+									<tr>
+										<th>9:00 - 9:15 am</th>
+										<td>Introduction</td>
+									</tr>
+									<tr>
+										<th>9:15 - 10:15 am</th>
+										<td><b>Keynote</b></td>
+									</tr>
+									<tr>
+										<th>10:15 - 10:30 am</th>
+										<td>Break</td>
+									</tr>
+									<tr>
+										<th>10:30 - 12:00 pm</th>
+										<td><b>Paper Session (1)</b></td>
+									</tr>
+									<tr>
+										<th>12:00 - 1:30 pm</th>
+										<td>Lunch</td>
+									</tr>
+									<tr>
+										<th>1:30 - 3:00 pm</th>
+										<td><b>Paper Session (2)</b></td>
+									</tr>
+									<tr>
+										<th>3:00 - 3:15 pm</th>
+										<td>Break</td>
+									</tr>
+									<tr>
+										<th>3:15 - 4:30 pm</th>
+										<td><b>Paper Session (3)</b></td>
+									</tr>
+									<tr>
+										<th>4:30 - 5:00 pm</th>
+										<td><b>Discussion Panel</b></td>
+									</tr>
+									<tr>
+										<th>5:00 pm</th>
+										<td>Close</td>
+									</tr>
+								</tbody>
+							</table>
+							
+						</section>
+
+						<!-- Keynote -->
+						<section id="keynote" class="main special">
+							<header class="major">
+								<h2>Keynote</h2>
+							</header>
+							<div class="alert alert-secondary" role="alert">
+								Keynote speaker is to be announced!
+							  </div>
+							
+						</section>
 
 						<!-- First Section -->
 							<section id="first" class="main special">
@@ -74,10 +151,24 @@
 								</header>
 								<div class="left-text">
 								<p>
-									SEA4DQ 2021 is soliciting regular and short papers as well as talk proposals. </br>
-									Regular papers should not exceed 8 pages, short papers should not exceed 4 pages and talk proposals should not exceed two-page extended abstract. 
-								</p><p>
-									Papers and abstracts must follow the ACM formatting instructions. Please submit the papers in PDF format on EasyChair. Papers and talk proposals should be original and unpublished material describing innovative and mature research results, experience reports, case studies, challenges, problems and solutions, ongoing work, new ideas, new results and future trends.
+									SEA4DQ 2021 accepts the following types of contributions:
+								</p>
+								<ul>
+									<li>
+										<b>Position Papers</b> (max. 2 pages) that analyze trends in data quality for CPS and raise issues of importance. Position papers are intended to generate discussion and debate during the workshop, and will be reviewed with respect to relevance and their ability to start up fruitful discussions.
+									</li>
+									<li>
+										<b>Work-in-Progress Papers</b> (max. 4 pages) that describe novel, interesting, and highly potential work in progress, but not necessarily reaching its full completion.
+									</li>
+									<li>
+										<b>Full Papers</b> (max. 10 pages) describing original and completed research – either empirical or theoretical – in techniques, tools, or industrial case studies.
+									</li>
+									<li>
+										<b>Tool Papers / Demos / Posters</b> (max. 4 pages) presenting some tools/demos/posters that are related to data quality.
+									</li>
+								</ul>
+								<p>
+									Papers and abstracts must follow the <a href="https://2021.esec-fse.org/track/fse-2021-how-to-submit">ESEC/FSE 2021 formatting instructions</a>. Please submit the papers in PDF format on EasyChair. Papers and talk proposals should be original and unpublished material describing innovative and mature research results, experience reports, case studies, challenges, problems and solutions, ongoing work, new ideas, new results and future trends.
 								</p><p>
 									All submissions will be reviewed by three program committee members. The program committee will review all submissions for relevance, potential to trigger discussions at the workshop, lessons learned, quality of presentation, and novelty.
 								</p><p>	
@@ -101,30 +192,103 @@
 								<li>Case studies that have evaluated an existing technique or tool on real systems, not only toy problems, to manage data quality in cyber-physical systems in different sectors.</li>
 								<li>Certification and standardization of data quality in CPS</li>
 							</ul>
+							<a href="https://easychair.org/conferences/?conf=sea4dq" class="btn btn-secondary btn-lg">Submission</a>
 							</section>
 
 
 							<!-- Schedule Section -->
 							<section id="dates" class="main special">
 								<header class="major">
-									<h2>Important Dates and Schedule</h2>
+									<h2>Important Dates (to be confirmed)</h2>
 								</header>
+								<ul>
+									<li>
+										<b>Abstract Registration:</b> May 25. 2021
+									</li>
+									<li>
+										<b>Paper Submission:</b> May 1. - June 4. 2021
+									</li>
+									<li>
+										<b>Notification of Acceptance:</b> July 1. 2021 
+									</li>
+									<li>
+										<b>Camera-Ready Submission:</b> July 8. 2021
+									</li>
+									<li>
+										<b>Workshop:</b> August 2021
+									</li>
+								</ul>
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
 									<h2>Organization Committee</h2>
-									<h4>General Chair</h4>
-									<b>Mikel Armendia</b>
-									<b>Odd Myklebust</b>
-									<h4>Program Chair</h4>
-									<h4>Publicity Chair</h4>
-									<h4>Web Chair</h4>
-							
-									<h2>Program Committee</h2>
-									<h3>(To be confirmed)</h3>
-									<div style="font-size: small;">
+									<div class="container">
+										<div class="row">
+										  <div class="col-sm">
+											<img src="./images/phu_nguyen.jpg" style="max-width: 150px; min-height:150px; object-fit:cover;" alt="..." class="rounded">
+											<h4>Phu Nguyen (Main Contact)</h4>
+											<h5>Publicity Chair</br>
+												<h5>SINTEF, Norway</br>
+											<a href="mailto:phu.nguyen@sintef.no">phu.nguyen@sintef.no</a></h5>
+										  </div>
+										  <div class="col-sm">
+											<img src="./images/sagar_sen.jpg" style="max-width: 150px; min-height:150px; object-fit:cover;" alt="..." class="rounded">
+											<h4>Sagar Sen (Main Contact)</h4>
+											<h5>Co-Program Chair</br>
+												<h5>SINTEF, Norway</br>
+											<a href="mailto:phu.nguyen@sintef.no">phu.nguyen@sintef.no</a></h5>
+										  </div>
+										</div>
+									  </div>
+									</br>
+									  <div class="container">
+										<div class="row">
+										  <div class="col-sm">
+											<img src="./images/mikel_armendia.jpg" style="max-width: 150px; min-height:150px; object-fit:cover;" alt="..." class="rounded">
+											<h5>Mikel Armendia</br>
+												Co-General Chair</br>
+												Tekniker, Spain
+											</h5>
+										  </div>
+										  <div class="col-sm">
+											<img src="./images/odd_myklebust.jpg" style="max-width: 150px; min-height:150px; object-fit:cover;" alt="..." class="rounded">
+											<h5>Odd Myklebust</br>
+												Co-General Chair</br>
+												SINTEF, Norway
+											</h5>
+										  </div>
+										  <div class="col-sm">
+											<img src="./images/per_myrseth.jpg" style="max-width: 150px; min-height:150px; object-fit:cover;" alt="..." class="rounded">
+											<h5>Per Myrseth</br>
+												Co-Program Chair</br>
+												DNV, Norway
+											</h5>
+										  </div>
+										</div>
+										<div class="row">
+											<div class="col-sm">
+												<img src="./images/beatriz_cassoli.jpg" style="max-width: 150px; min-height:150px; object-fit:cover;" alt="..." class="rounded">
+											  <h5>Beatriz Cassoli</br>
+												Co-Web Chair</br>
+											  TU Darmstadt, Germany
+											</h5>
+											</div>
+											<div class="col-sm">
+												<img src="./images/nicolas_jourdan.jpg" style="max-width: 150px; min-height:150px; object-fit:cover;" alt="..." class="rounded">
+											  <h5>Nicolas Jourdan</br>
+												Co-Web Chair</br>
+											  TU Darmstadt, Germany
+											</h5>
+											</div>
+										  </div>
+									  </div>
+
+									</br></br>
+									<h2>Program Committee (to be confirmed)</h2>
+									<div class="row">
+										<div class="col-md-6 mx-auto">
 									<ul>
 										<li>Lionel Briand, University of Ottawa, Canada</li>
 										<li>Shiva Nejati, University of Ottawa, Canada</li>
@@ -162,7 +326,8 @@
 										<li>Debmalya Biswas, Darwin Digital, Switzerland</li>
 										<li>Ayush Bhandari, Imperial College, UK</li>
 									</ul>
-								</div>
+									</div>
+									</div>
 								</header>
 
 							</section>
@@ -207,6 +372,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 	</body>
 </html>
