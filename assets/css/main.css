@@ -104,10 +104,10 @@ input, select, textarea {
 
 	body {
 		background-color: #ff9999;
-		background-image: url("images/acropolis2.jpg"), -moz-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-		background-image: url("images/acropolis2.jpg"), -webkit-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-		background-image: url("images/acropolis2.jpg"), -ms-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-		background-image: url("images/acropolis2.jpg"), linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+		background-image: url("images/acropolis.jpg"), -moz-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+		background-image: url("images/acropolis.jpg"), -webkit-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+		background-image: url("images/acropolis.jpg"), -ms-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+		background-image: url("images/acropolis.jpg"), linear-gradient(55deg, #a18b78 25%, #70392f 75%);
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -3008,13 +3008,13 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			border-radius: 5px%;
 			border: solid 1px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 5px%;
 				width: 16em;
 			}
 
@@ -3081,6 +3081,7 @@ input, select, textarea {
 	#header {
 		padding: 5em 5em 1em 5em ;
 		text-align: center;
+		z-index: 1;
 	}
 
 		#header h1 {
@@ -3094,6 +3095,8 @@ input, select, textarea {
 
 		#header.alt {
 			padding: 7em 5em 4em 5em ;
+			background: url(./images/acropolis.jpg) no-repeat 0 100%;
+			background-size: cover;
 		}
 
 			#header.alt h1 {
