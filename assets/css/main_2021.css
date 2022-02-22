@@ -104,10 +104,10 @@ input, select, textarea {
 
 	body {
 		background-color: #ff9999;
-		background-image: url("images/singapore.jpg"), -moz-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-		background-image: url("images/singapore.jpg"), -webkit-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-		background-image: url("images/singapore.jpg"), -ms-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-		background-image: url("images/singapore.jpg"), linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+		background-image: url("images/acropolis.jpg"), -moz-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+		background-image: url("images/acropolis.jpg"), -webkit-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+		background-image: url("images/acropolis.jpg"), -ms-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+		background-image: url("images/acropolis.jpg"), linear-gradient(55deg, #a18b78 25%, #70392f 75%);
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -3091,17 +3091,11 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			letter-spacing: -0.025em;
-			color: #FFFFFF;
 		}
 
 		#header.alt {
 			padding: 7em 5em 4em 5em ;
-			background: 
-				linear-gradient(
-					rgba(0, 0, 0, 0.5), 
-					rgba(0, 0, 0, 0.5)
-				),
-				url(./images/singapore.jpg) no-repeat 0 100%;
+			background: url(./images/acropolis.jpg) no-repeat 0 100%;
 			background-size: cover;
 		}
 
