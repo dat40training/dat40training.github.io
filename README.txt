@@ -1,35 +1,7 @@
-This is the repository of the source files of the SEA4DQ workshop.
+﻿This is the repository of the training materials of the DAT4.Zero project
 
-Powered by:
----
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Training and knowledge transfer activities are a joint effort of the partners in the consortium and the training and knowledge transfer team, who support and coordinate the planning and organisation activities, providing an activity and training material overview. 
 
+Early in the project, we established a shared knowledge foundation among the project partners. Then, we combined insights and outcomes from project tasks and collaborative efforts among partners in presentations, training sessions, and demonstrations. In the final phase, we transmitted the consolidated knowledge and technical solutions to the predetermined target audiences and stakeholders, which can be further deployed post-project as part of the project exploitation. 
 
-Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
-I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
-nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
-you need one), and an assortment of pre-styled elements.
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+We have conducted various training activities at different levels from generic knowledge foundation such as the trainings on “Design of Experiment”, on “Supplier Management Process for ZDM”, to DAT4.ZERO solution-oriented training sessions and technology transfer such as the trainings on “in-line measurements of aluminium profile​”, “3D Characterisation of cylindrical runout”, “Nerve Edge computing platform”, “Data Management System-DQM-DMS”, etc. 
