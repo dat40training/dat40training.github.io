@@ -14,20 +14,18 @@ Metrology is an essential part of the manufacturing process to test conformance 
 3D runout characterisation --	WP2 	University of Nottingham 	Luke Todhunter (luke.todhunter@nottingham.ac.uk)
 Cylindrical rotational errors are typically characterised using runout; a 1D numerical value that defines undesired variation from a rotational centre. Methods have been developed to expand traditional runout tolerancing assessments to three-dimensions, accounting not only for magnitude of error, but also direction. This unlocks the possibility for assembly optimisations that can account for directional error and reduce waste by making more parts fit-for-purpose. This presentation will give an overview of the three-dimensional runout characterisation method, as well as the software validation steps taken to assure its value. This research was performed at the University of Nottingham for the Dentsply use case. 	
 
-3D-DaVa: Enhancing 3D Point Cloud Data Reliability for Industrial Applications 	
+3D-DaVa: Enhancing 3D Point Cloud Data Reliability for Industrial Applications 	-- 	WP2	SINTEF Digital 	Adela Nedisan Videsjorden (adela.videsjorden@sintef.no) 
 
-The escalating incorporation of three-dimensional (3D) point cloud data across various industrial applications highlights the necessity of assuring its reliability. However, along with the error-prone process of object digitization, the actual data volume, pattern complexity, environmental disturbances, and equipment inaccuracies can introduce significant challenges in assessing the quality of 3D point cloud data. In light of these challenges, there is a pressing need for a generally applicable, comprehensive, and robust solution to effectively validate the integrity of point cloud data and assess its quality. Such a solution would empower professionals to rely on this data for critical decision-making, covering applications within many domains, such as manufacturing, the automotive industry, and robotics.  	WP2	SINTEF Digital 	Adela Nedisan Videsjorden (adela.videsjorden@sintef.no) 
-
+The escalating incorporation of three-dimensional (3D) point cloud data across various industrial applications highlights the necessity of assuring its reliability. However, along with the error-prone process of object digitization, the actual data volume, pattern complexity, environmental disturbances, and equipment inaccuracies can introduce significant challenges in assessing the quality of 3D point cloud data. In light of these challenges, there is a pressing need for a generally applicable, comprehensive, and robust solution to effectively validate the integrity of point cloud data and assess its quality. Such a solution would empower professionals to rely on this data for critical decision-making, covering applications within many domains, such as manufacturing, the automotive industry, and robotics.  
+https://github.com/SINTEF-9012/3ddava
 
 Nerve Edge Platform 	-- WP3	TTTech 	Francesca Flamigni (francesca.flamigni@tttech.com) 
 
 This training gives participants a good high-level understanding of the capabilities of an industrial IoT edge platform like Nerve. It’s not intended primarily as a product presentation but rather as an explanation on which capabilities we consider most important (and why) for an industrial edge computing platform, and how the Nerve architecture addresses these capabilities. The training focuses on use cases and trends influencing industrial edge computing, industrial edge computing architecture, Nerve – overview of technical infrastructure and components, and a live demo of a few Nerve GUI elements. A good high-level understanding of the capabilities of an industrial IoT edge platform like Nerve. It’s not intended primarily as a product presentation but rather as an explanation on which capabilities we consider most important (and why) for an industrial edge computing platform, and how the Nerve architecture addresses these capabilities. 	
 
-
 Edge-based Data Profiling and Repair as a Service --	WP3	SINTEF Digital 	Phu Nguyen (phu.nguyen@sintef.no)
 
 With the proliferation of IoT devices and the consequent exponential growth in data generation, ensuring data quality has become a critical challenge in IoT applications. Erroneous data can significantly impact the reliability and effectiveness of decision-making processes and downstream analytics. Leveraging the computational abilities of edge devices enables data profiling and repair tasks at the edge, allowing for immediate remediation of erroneous data within the data stream and improved scalability through distributed repair across multiple edge devices. Cloud-based data profiling and repair methods have been extensively researched, but limited computational resources constrain their applicability at edge/fog devices. To overcome this limitation and enhance generalizability, Machine Learning (ML) offers a promising solution, allowing sensor substitution, missing value prediction, and corrupt data replacement. ML-based data repair techniques can be flexibly deployed at the edge using containerized repair services for real-time data repair. 	
-
 
 Data Management System (Data modelling and semantic data tagging) --WP3	Holonix 	Stefano Borgia  (stefano.boriga@holonix.it) 
 
@@ -38,17 +36,14 @@ Training on the Data Visualization Modules 	-- WP3	Holonix 	Stefano Borgia (stef
 
 This training will focus on the DQM Core Data Visualization Modules developed in WP3. These modules, integrated in the pilot instances of the DQM Core, consist of Graphical User Interfaces supporting the users in terms of data checking, filtering and visualization. They represent the Front-End of the layer of data management of the DQM platform and provide the basis for improved decision making in the shop floor and in engineering. Data Visualization Modules are built following common IT principles, but each of them is customized according to specific requirements of a DAT4.Zero use case. 	
 
-
 The DQM Analytics Toolkit -- WP4	KIT-AR / SkillAugment 	Felix Mannhardt (felix.mannhardt@kit-ar.com) 	
 
 This training focuses on the DQM Analytics Toolkit developed in WP4. This is a modular toolkit for supporting data analytics. The toolkit builds on top of the foundational data layer, the DQM Core platform, and provides the basis for improved decision making in the shop floor and in engineering. The toolkit is a modular system with a set of independent modules that, together, provide support for: Data preparation, Data analytics, and Data visualisation.  	
 
 
-
 Data fusion and analytics solutions for knowledge extractions, correlation, and pattern analysis --	WP4	SINTEF Digital	Erik Johannes Husom (erik.johannes.husom@sintef.no) 
 
 Manufacturing has enabled the mechanized mass production of the same (or similar) products by replacing craftsmen with assembly lines of machines. The quality of each product in an assembly line greatly hinges on continual observation and error compensation during machining using sensors that measure quantities such as position and torque of a cutting tool and vibrations due to possible imperfections in the cutting tool and raw material. Patterns observed in sensor data from a (near-) optimal production cycle should ideally recur in subsequent production cycles with minimal deviation. Manually labelling and comparing such patterns is an insurmountable task due to the massive amount of streaming data that can be generated from a production process. We present UDAVA, an unsupervised machine learning pipeline that automatically discovers process behaviour patterns in sensor data for a reference production cycle. 
-
 https://github.com/SINTEF-9012/Udava 	
 
 
@@ -70,10 +65,8 @@ Grinding defects prediction toolkit 	-- WP5	Ideko	Jorge Alvarez Ruiz (j.alvarez@
 This training session will focus on the development of the Grinding Defects Prediction Toolkit within WP5. The toolkit aims to address grinding defects associated with thermal damage and various patterns that emerge on the ground surface, such as waviness. It is composed of multiple stages across the DAT4ZERO work packages, including data acquisition from diverse sources (WP2), communication and architecture for acquired data (WP3), data analytics (WP4), and process modelling to forecast the occurrence of grinding defects (WP5). The training will feature a conceptual demonstration, primarily tailored to the Fersa Use Case, but with applicability to other grinding processes. While thermal damage prediction will be the main topic, a brief overview of other defects will also be provided. 	
 
 
-
 Developed supplier selection process 	-- WP5	KIT	Rainer Silbernagel (rainer.silbernagel@kit.de) 
 This training shows an adapted supplier management process that can help to ease the implementation of external supplier production data through data exchange support over the entire business lifecycle especially in supplier evaluation (“give suppliers who are capable and/or willing to exchange production data a bonus in evaluation”) as well in supplier qualification (“help suppliers to set up relevant skills for data exchange, like implementing single part traceability”). The overall goal is the improvement of the model accuracy and performance as well as smoothing the causes of defects external to the company. This should be achieved by utilizing shared suppliers’ production data, which is better available through a supplier management process focusing also on supplier data. 	
-
 
 Design of Experiment 	-- WP6	IdleTechs	Frank Westad (frank.westad@idletechs.no) 
 
