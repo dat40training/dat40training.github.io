@@ -22,6 +22,7 @@ https://github.com/SINTEF-9012/3ddava
 Nerve Edge Platform 	-- WP3	TTTech 	Francesca Flamigni (francesca.flamigni@tttech.com) 
 
 This training gives participants a good high-level understanding of the capabilities of an industrial IoT edge platform like Nerve. It’s not intended primarily as a product presentation but rather as an explanation on which capabilities we consider most important (and why) for an industrial edge computing platform, and how the Nerve architecture addresses these capabilities. The training focuses on use cases and trends influencing industrial edge computing, industrial edge computing architecture, Nerve – overview of technical infrastructure and components, and a live demo of a few Nerve GUI elements. A good high-level understanding of the capabilities of an industrial IoT edge platform like Nerve. It’s not intended primarily as a product presentation but rather as an explanation on which capabilities we consider most important (and why) for an industrial edge computing platform, and how the Nerve architecture addresses these capabilities. 	
+https://www.youtube.com/watch?v=XKtCbfB5MD0
 
 Edge-based Data Profiling and Repair as a Service --	WP3	SINTEF Digital 	Phu Nguyen (phu.nguyen@sintef.no)
 
