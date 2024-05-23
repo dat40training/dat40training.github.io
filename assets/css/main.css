@@ -195,10 +195,10 @@ html {
 
 body {
 	background-color: #ff9999;
-	background-image: url("images/san_francisco.jpg"), -moz-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-	background-image: url("images/san_francisco.jpg"), -webkit-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-	background-image: url("images/san_francisco.jpg"), -ms-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
-	background-image: url("images/san_francisco.jpg"), linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+	background-image: url("images/SINTEF_WALLPAPER_3_32-9.jpg"), -moz-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+	background-image: url("images/SINTEF_WALLPAPER_3_32-9.jpg"), -webkit-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+	background-image: url("images/SINTEF_WALLPAPER_3_32-9.jpg"), -ms-linear-gradient(55deg, #a18b78 25%, #70392f 75%);
+	background-image: url("images/SINTEF_WALLPAPER_3_32-9.jpg"), linear-gradient(55deg, #a18b78 25%, #70392f 75%);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
